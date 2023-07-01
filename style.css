@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+#container {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+}
+.divGrid {
+    width: calc(100% / var(--columns));
+    height: calc(100% / var(--rows));
+    box-sizing: border-box;
+    border: 2px solid black;
+    float: left;
+    
+}
+.hover {
+    background-color: blue;
+}
